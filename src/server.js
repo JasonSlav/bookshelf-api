@@ -10,7 +10,6 @@ const init = async () => {
         method: 'GET',
         path: '/',
         handler: (request, h) => {
-            //return json response of book information
             return h.response({
                 name: 'API Book',
                 descripttion: 'API Book Description',
